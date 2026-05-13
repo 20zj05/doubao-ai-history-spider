@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ======================
 # 1. 读取你的对话数据
 # ======================
-df = pd.read_csv("doubao_all_OK.csv", encoding="utf-8-sig")
+df = pd.read_csv("doubao.csv", encoding="utf-8-sig")
 
 # 把所有对话内容合并成一段文本
 text = " ".join(df["内容"].astype(str))
